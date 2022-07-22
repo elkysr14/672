@@ -74,8 +74,8 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 
 
 <div class="content" >
- 	 <br><span class="yellow" >لصيانة أجهزة البلاى ستيشن  :</span >&nbsp;&nbsp; <a class="hue" style='font-size:45px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'>zezo</a>
- 	 <br><br><br><br><span class="yellow" > المنزلة شارع المجلس </span >&nbsp;&nbsp; <a style='font-size:30px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'> بجوار بنك مصر الاسلامى </a> 
+ 	 <br><span class="yellow" <h1 id=msgs2 style='font-size:45px;text-align:center;text-shadow: 4px 4px 4px black;color:white;>لصيانة أجهزة البلاى ستيشن  :</span >&nbsp;&nbsp; <a class="hue" style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'>zezo</a>
+ 	 <br><br><br><br><span class="yellow" > المنزلة شارع المجلس </span >&nbsp;&nbsp; <a style='font-size:45px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'> بجوار بنك مصر الاسلامى </a> 
  </div>
 </div>
 <script>
@@ -96,7 +96,7 @@ window.failCounter.innerHTML=localStorage.failcount;
 
 function load_hen(x) {
 PLfile=x;
-msgs2.innerHTML="... أنتظر قليلا"; LoadedMSG="GoldHEN Loaded";
+msgs2.innerHTML=".... أنتظر قليلا"; LoadedMSG="GoldHEN Loaded";
 setTimeout(function(){var script = document.createElement('script');script.src ="exp_loader.js";document.getElementsByTagName('head')[0].appendChild(script);},3000);
 setTimeout(jailbreak,500);
 }
