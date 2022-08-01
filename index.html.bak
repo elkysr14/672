@@ -61,29 +61,31 @@ document.getElementById("clock").innerHTML = (Hour+":"+Minute);
 <div id=all style="text-align:center">
 <button style='font-size:25px;text-align:center;font-weight: bold;text-shadow: 4px 4px 4px black;color:#CEC52A' class="pointer" onMouseOver="msgs2.innerHTML='GoldHen v2.0b2 By SiSTRO'"; onmouseout="msgs2.innerHTML='Status'" onclick="load_hen('goldhen2b2672.bin'); return false">أضغط هنا </button>
 </div>
+<br><br><br><br><span class="yellow" >zezo</span >&nbsp;&nbsp; <a style='font-size:20px;text-align:center;text-shadow: color:white;'>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 	 
+ 	 <br><br><br><br><span class="white" ></span >&nbsp;&nbsp; <a style='font-size:20px;text-align:center;text-shadow: 6px 6px 6px black;color:white;'>  </a><br><br><br><br><span class="yellow" ></a>
+
+ </div>
 
 
 
 
 <br><br>
 <br>
-
-
-
-
-
-<div class="content" >
- 	 <br><span class="yellow" <h1 id=msgs2 style='font-size:45px;text-align:center;text-shadow: 4px 4px 4px black;color:white;>لصيانة أجهزة البلاى ستيشن  :</span >&nbsp;&nbsp; <a class="hue" style='font-size:25px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'>zezo</a>
- 	 <br><br><br><br><span class="yellow" > المنزلة شارع المجلس </span >&nbsp;&nbsp; <a style='font-size:45px;text-align:center;text-shadow: 4px 4px 4px black;color:white;'> بجوار بنك مصر الاسلامى </a> 
- </div>
-</div>
-<script>
-for(var i=1; i<=99; i++){var select1 = document.getElementById("fws1"); var option1 = document.createElement("OPTION"); select1.options.add(option1); option1.text = i; option1.value = i;}
-fws1.value=9;
-for(var i=00; i<=99; i++){var select2 = document.getElementById("fws2"); var option2 = document.createElement("OPTION"); select2.options.add(option2); option2.text = ("0" + i).slice(-2); option2.value = i;}
-fws2.value=00;
-</script>
 <script>
 for(var i=40; i<=79; i++){var select = document.getElementById("tempC"); var option = document.createElement("OPTION"); select.options.add(option); option.text = i; option.value = i;}
 tempC.value=79;
